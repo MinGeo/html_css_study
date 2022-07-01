@@ -8,6 +8,7 @@
     text-align: center;
     background-position: center;
 
+
 }
 .main-title {
     color: white;
@@ -25,4 +26,27 @@ p {
 .link {
     color: white;
     font-size: 20px;
+    z-index: 5;
+}
+.main-button {
+    padding: 15px;
+    font-size: 20px;
+    background-color: white;
+    border: none;
+    border-radius: 5px;
+    
+}
+.main-box {
+    padding: 10px;
+    background-color: grey;
+    width:500px;
+    position: relative;
+    margin: auto;
+    bottom: -80px;
+}
+.text-input {
+    padding: 10px;
+    font-size: 20px;
+    border: 2px solid black;
+    border-radius: 5px;
 }
