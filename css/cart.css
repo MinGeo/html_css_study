@@ -1,4 +1,6 @@
-
+body {
+    font-family: 'gulim';
+}
 h1 {
     margin-top: 40px;
 }
@@ -40,7 +42,31 @@ td, th {
     border-left:hidden;
     border-right:hidden;
 }
-
+.btn {
+    padding:15px;
+    font-size: 20px;
+    border: none;
+    border-radius: 10px;
+    background-color: coral;
+    color: white;
+    cursor: pointer;
+}
+.btn:hover {
+    background-color: chocolate;
+}
+.btn:focus {
+    background-color: grey;
+}
+.btn:active {
+    background-color: brown;
+    border: 2px solid black;
+}
+.input-test {
+    font-size: 20px;
+}
+.input-test:active {
+    border: 2px solid red;
+}
 
 
 
