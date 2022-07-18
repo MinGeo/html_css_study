@@ -1,0 +1,28 @@
+li {
+    padding: 20px;
+    font-size: 30px;
+    list-style: none;
+    border: 1px solid grey;
+    width: 50%;
+
+    &:active {
+        background-color: blue;
+    }
+}
+@mixin box() {
+    padding: 20px;
+    font-size: 20px;
+    margin-bottom: 10px;
+}
+.green-box {
+    @include box();
+    background-color: green;
+}
+.blue-box{
+    @include box();
+    background-color: skyblue;
+}
+.yellow-box {
+    @include box();
+    background-color: yellow;
+}

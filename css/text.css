@@ -1,0 +1,31 @@
+li {
+  padding: 20px;
+  font-size: 30px;
+  list-style: none;
+  border: 1px solid grey;
+  width: 50%;
+}
+li:active {
+  background-color: blue;
+}
+
+.green-box {
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: green;
+}
+
+.blue-box {
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: skyblue;
+}
+
+.yellow-box {
+  padding: 20px;
+  font-size: 20px;
+  margin-bottom: 10px;
+  background-color: yellow;
+}/*# sourceMappingURL=text.css.map */
